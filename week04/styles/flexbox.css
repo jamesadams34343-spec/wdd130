@@ -8,10 +8,20 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    /* ↓↓↓ most of what is below is partially obsolete because of what is above ↑↑↑ */
+
+    /* ↓↓↓ other commands: 
+        flex-direction: row;
+        /* ↑↑↑ other options for above command: column,
+        justify-content: center;
+        /* ↑↑↑ other options for above commands: flex-start, flex-end, center, space around
+        align-items: stretch;
+        /* ↑↑↑ other options for above command: center,
+    */
 }
 
 .flex-item {
-    width: 250px;
+    width: 350px;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
