@@ -31,6 +31,7 @@ footer {
 header {
   background-color: var(--accent1-color);
   color: var(--secondary-color);
+  font-weight: bolder;
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
@@ -200,6 +201,7 @@ footer {
   grid-column: 2;
   font-size: large;
   color: var(--secondary-color);
+  font-weight: bolder;
 }
 
 .footer nav {
