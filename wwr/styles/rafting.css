@@ -150,7 +150,7 @@ h2 {
 
 .History h2 {
   text-align: center;
-  grid-column: 2;
+  grid-column: 1 / -1;
 }
 
 .intro-text {
@@ -171,17 +171,20 @@ h2 {
 }
 
 /* <section id="adventure" > */
-#adventure {
-  position: relative;
-}
-
-#adventure h2 {
-  text-align: center;
-}
-
-#adventure nav {
+.adventure {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.adventure h2 {
+  text-align: center;
+  grid-column: 1 / -1;
+
+}
+
+.adventure-image img {
+  bottom: 20px;
 }
 
 /* !!!!! footer{} !!!!!!! */
