@@ -211,6 +211,11 @@ iframe {
   grid-template-columns: 1fr;
 }
 
+.message p {
+  margin: 0;
+  padding: 0;
+}
+
 .intro-text {
   grid-column: 1;
   margin: 0;
