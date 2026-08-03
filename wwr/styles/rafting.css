@@ -98,6 +98,17 @@ article {
   color: var(--primary-color);
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact div {}
+
+h3 {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+}
+
 /* This is the having fun thing */
 .hero article {
   position: absolute;
@@ -147,9 +158,56 @@ h2 {
   gap: 16px;
 }
 
+.contact-form {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
 .History h2 {
   text-align: center;
   grid-column: 1 / -1;
+}
+
+iframe {
+  justify-content: center;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 5rem;
+  width: 100%;
+}
+
+.text-input label {
+  width: 10%;
+}
+
+.text-input input {
+  width: 90%;
+}
+
+.contact-form button,
+.contact-form textarea {
+  width: 100%;
+}
+
+.radio {
+  display: flex;
+
+}
+
+.radio p {
+  margin: 0;
+  padding: 0;
+  padding-right: 1rem;
+}
+
+.radio-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .intro-text {
@@ -178,7 +236,19 @@ h2 {
   gap: 16px;
 }
 
-.adventure h2 {
+.employee-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* .employee-profiles figure {
+  display: flex;
+  justify-content: center;
+} */
+
+.adventure h2,
+.employee-profiles h2 {
   text-align: center;
   grid-column: 1 / -1;
 
@@ -186,6 +256,20 @@ h2 {
 
 .adventure img {
   width: 100%;
+}
+
+.employee-profiles img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+}
+
+.adventure figcaption,
+.employee-profiles figcaption {
+  text-align: center;
 }
 
 /* !!!!! footer{} !!!!!!! */
