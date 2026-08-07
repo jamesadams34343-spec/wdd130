@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Home page - will contain attention grabbing information including: company information, call(s) to
+action, appealing graphics, and other items.
+newsletter sign up form - requests: name and email
+call to action - link → trips.html "sign up now" -> (page that compels visitors to visit the trips
+page.)
+CSS grid layout - two additional images and corresponding content about the white water rafting site
+purpose and offerings. -->
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page | Cold Rush Rapids</title>
+  <meta name="description"
+    content="Whitewater rafting, travel scheduling opportunity, to navigating a non-motorized watercraft down free flowing rivers.">
+  <meta name="author" content="James Adams">
+  <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/downriver.png" alt="Drawing of inner tubes floating down a river" width="200">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <img src="images/single-raft.jpg" alt="single raft in a river">
+      <h1>Cold Rush Rapids</h1>
+      <h2>Learn more about nature come visit us <br>On the river</h2>
+      <section class="homepage">
+        <div>
+          <p>Fill the empty river with laughter</p>
+          <img src="images/empty-river.jpg" alt="lonely river">
+        </div>
+        <div>
+          <p>123 address river lane</p>
+          <p> town, state</p>
+          <p>1 999 999 9999</p>
+          <p>info@coldrushrapids.com</p>
+        </div>
+        <form class="home-grid">
+          <div>
+            <label for="name">Name </label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div>
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">subscribe me to the monthly newsletter</label>
+          </div>
+          <button type="submit">Start building the adventure</button>
+        </form>
+        <div>
+          <a href="trips.html">Come Join us today</a>
+          <img src="images/homepage.jpg" alt="For those that love adventure" width="150">
+        </div>
+
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <p>© 2026 Cold Rush Rapids James Adams</p>
+    <nav class="socialmedia">
+      <a href="https://www.facebook.com/">
+        <img src="images/facebook-square.svg" alt="Facebook Icon" width="30">
+      </a>
+      <a href="https://x.com/">
+        <img src="images/x-bw.svg" alt="X.com Icon" width="30">
+      </a>
+      <a href="https://www.youtube.com/">
+        <img src="images/youtube-square.svg" alt="Youtube Icon" width="30">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
