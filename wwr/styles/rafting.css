@@ -132,6 +132,19 @@ article {
 
 }
 
+.table-title {
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.top-row {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: var(--primary-color);
+
+}
+
 .trips {
   display: grid;
   gap: 2rem;
