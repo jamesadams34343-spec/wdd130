@@ -110,6 +110,13 @@ article {
   z-index: 2;
 }
 
+.hero h3 {
+  display: grid;
+  grid-column: 1/5;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .center {
   padding-top: 30rem;
 }
